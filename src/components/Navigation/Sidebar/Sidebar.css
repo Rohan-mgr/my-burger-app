@@ -1,0 +1,32 @@
+.Sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40vw;
+  height: 100vh;
+  background-color: #fff;
+  box-sizing: border-box;
+  text-align: center;
+  z-index: 200;
+  transition: all 0.3s ease-out;
+}
+
+.logo {
+  height: 20%;
+  margin-top: 60px;
+}
+.logo img {
+  height: 70%;
+}
+.OpenSidebar {
+  transform: translateX(0);
+}
+.CloseSidebar {
+  transform: translateX(-100%);
+}
+
+@media (min-width: 500px) {
+  .Sidebar {
+    display: none;
+  }
+}

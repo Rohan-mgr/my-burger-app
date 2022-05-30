@@ -1,0 +1,22 @@
+.toolbar {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background-color: #703b09;
+}
+.logo {
+  height: 90%;
+}
+.logo img {
+  height: 100%;
+}
+@media (max-width: 500px) {
+  .desktopOnly {
+    display: none;
+  }
+}

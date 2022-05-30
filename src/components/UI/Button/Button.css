@@ -1,0 +1,30 @@
+.Button {
+    background: transparent;
+    outline: none;
+    border: 1px solid #AE431E;
+    padding: 5px 15px;
+    height: 40px;
+    color: white; 
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.Button:first-of-type {
+    margin: 10px; 
+}
+.Button:hover {
+    background: linear-gradient(#f3dc68, #f1da86);
+}
+.Button:disabled {
+    background: #ccc;
+    color: #EAEAEA;
+    cursor: not-allowed;
+}
+.Success {
+    color: green; 
+}
+.Danger {
+    color: red; 
+}

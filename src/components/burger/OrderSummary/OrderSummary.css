@@ -1,0 +1,11 @@
+.Ul {
+    text-transform: "capitalize"; 
+    list-Style: none;
+    text-Align: left;
+    margin: 0 20%;
+}
+@media (min-width: 500px) {
+    .Ul {
+        margin: 0 35%;
+    }
+}
